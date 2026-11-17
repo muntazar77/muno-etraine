@@ -2,6 +2,9 @@
 
 Eine moderne, lokal ausführbare Trainings- und Prüfungssimulationsplattform für den deutschen **Einstellungstest & das Auswahlverfahren** (Öffentlicher Dienst, IT/FISI, Verwaltung & Ausbildung), entwickelt mit **Next.js (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS**, **Zod** und **Zustand**.
 
+
+<img width="1745" height="1296" alt="Screenshot from 2026-11-17 16-17-55" src="https://github.com/user-attachments/assets/a2a124bc-9b1d-42f6-9b04-3df550bed2ae" />
+
 ---
 
 ## Überblick & Highlights
@@ -34,6 +37,7 @@ Eine moderne, lokal ausführbare Trainings- und Prüfungssimulationsplattform f�
   - Speichert Lernfortschritt, Lesezeichen, Fehlerliste, Prüfungshistorie und Einstellungen zuverlässig in `localStorage`.
 
 ---
+<img width="1733" height="965" alt="Screenshot from 2026-11-17 16-18-23" src="https://github.com/user-attachments/assets/eff0553d-279b-4d71-a769-f297e4870556" />
 
 ## Technologie-Stack
 
