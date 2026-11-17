@@ -1,0 +1,222 @@
+@import "tailwindcss";
+
+:root {
+  /* Tier 1: Literal Palette Tokens (Light & Dark) */
+  --canvas-warm-light: #f4f3ef;
+  --canvas-warm-dark: #0e1017;
+
+  --canvas-exam-light: #f7f8fa;
+  --canvas-exam-dark: #0f111a;
+
+  --surface-elevated-light: #ffffff;
+  --surface-elevated-dark: #171a26;
+
+  --surface-subtle-light: #eceae3;
+  --surface-subtle-dark: #1f2333;
+
+  --surface-navy-light: #222338;
+  --surface-navy-dark: #1b1d32;
+
+  --ink-primary-light: #161722;
+  --ink-primary-dark: #f3f4f8;
+
+  --ink-secondary-light: #5c5e6e;
+  --ink-secondary-dark: #a2a6bc;
+
+  --ink-muted-light: #858899;
+  --ink-muted-dark: #757991;
+
+  --border-hairline-light: #e5e4de;
+  --border-hairline-dark: #272b3f;
+
+  --border-exam-light: #e2e5ec;
+  --border-exam-dark: #2a2f45;
+
+  /* Editorial Pastel Tokens (inspired by dashboard-reference.png) */
+  --pastel-lavender-light: #bfaaff;
+  --pastel-lavender-dark: #b69eff;
+  --pastel-lavender-ink: #1b1836;
+
+  --pastel-peach-light: #fbe3be;
+  --pastel-peach-dark: #f5d8ad;
+  --pastel-peach-ink: #291f14;
+
+  --pastel-lime-light: #e8fa5a;
+  --pastel-lime-dark: #dff44d;
+  --pastel-lime-ink: #1d2409;
+
+  --pastel-teal-light: #d2f0e9;
+  --pastel-teal-dark: #bce6dc;
+  --pastel-teal-ink: #11332b;
+
+  /* Exam & Interactive Accent Tokens (inspired by exam-reference.png) */
+  --accent-indigo-light: #5347d8;
+  --accent-indigo-dark: #685df0;
+  --accent-indigo-hover-light: #4438c4;
+  --accent-indigo-hover-dark: #796ff5;
+
+  --accent-teal-light: #387b6b;
+  --accent-teal-dark: #499986;
+  --accent-teal-hover-light: #2e685a;
+  --accent-teal-hover-dark: #58ad99;
+
+  --status-danger-light: #c93b4b;
+  --status-danger-dark: #f06474;
+
+  --status-warning-light: #c87a19;
+  --status-warning-dark: #f2a949;
+
+  /* Default Light Fallback Assignments */
+  --bg-canvas: var(--canvas-warm-light);
+  --bg-exam-canvas: var(--canvas-exam-light);
+  --bg-surface: var(--surface-elevated-light);
+  --bg-surface-subtle: var(--surface-subtle-light);
+  --surface-navy: var(--surface-navy-light);
+
+  --ink-primary: var(--ink-primary-light);
+  --ink-secondary: var(--ink-secondary-light);
+  --ink-muted: var(--ink-muted-light);
+
+  --border-subtle: var(--border-hairline-light);
+  --border-exam: var(--border-exam-light);
+
+  --pastel-lavender: var(--pastel-lavender-light);
+  --pastel-peach: var(--pastel-peach-light);
+  --pastel-lime: var(--pastel-lime-light);
+  --pastel-teal: var(--pastel-teal-light);
+
+  --accent-indigo: var(--accent-indigo-light);
+  --accent-indigo-hover: var(--accent-indigo-hover-light);
+  --accent-teal: var(--accent-teal-light);
+  --accent-teal-hover: var(--accent-teal-hover-light);
+
+  --status-danger: var(--status-danger-light);
+  --status-warning: var(--status-warning-light);
+
+  --scrollbar-track: #eceae3;
+  --scrollbar-thumb: #787a8c;
+
+  /* Fallback for browsers without light-dark() support */
+  @media (prefers-color-scheme: dark) {
+    --bg-canvas: var(--canvas-warm-dark);
+    --bg-exam-canvas: var(--canvas-exam-dark);
+    --bg-surface: var(--surface-elevated-dark);
+    --bg-surface-subtle: var(--surface-subtle-dark);
+    --surface-navy: var(--surface-navy-dark);
+
+    --ink-primary: var(--ink-primary-dark);
+    --ink-secondary: var(--ink-secondary-dark);
+    --ink-muted: var(--ink-muted-dark);
+
+    --border-subtle: var(--border-hairline-dark);
+    --border-exam: var(--border-exam-dark);
+
+    --pastel-lavender: var(--pastel-lavender-dark);
+    --pastel-peach: var(--pastel-peach-dark);
+    --pastel-lime: var(--pastel-lime-dark);
+    --pastel-teal: var(--pastel-teal-dark);
+
+    --accent-indigo: var(--accent-indigo-dark);
+    --accent-indigo-hover: var(--accent-indigo-hover-dark);
+    --accent-teal: var(--accent-teal-dark);
+    --accent-teal-hover: var(--accent-teal-hover-dark);
+
+    --status-danger: var(--status-danger-dark);
+    --status-warning: var(--status-warning-dark);
+
+    --scrollbar-track: #171a26;
+    --scrollbar-thumb: #6f748c;
+  }
+
+  /* Modern CSS light-dark() automatic adaptation */
+  @supports (color: light-dark(white, black)) {
+    --bg-canvas: light-dark(var(--canvas-warm-light), var(--canvas-warm-dark));
+    --bg-exam-canvas: light-dark(var(--canvas-exam-light), var(--canvas-exam-dark));
+    --bg-surface: light-dark(var(--surface-elevated-light), var(--surface-elevated-dark));
+    --bg-surface-subtle: light-dark(var(--surface-subtle-light), var(--surface-subtle-dark));
+    --surface-navy: light-dark(var(--surface-navy-light), var(--surface-navy-dark));
+
+    --ink-primary: light-dark(var(--ink-primary-light), var(--ink-primary-dark));
+    --ink-secondary: light-dark(var(--ink-secondary-light), var(--ink-secondary-dark));
+    --ink-muted: light-dark(var(--ink-muted-light), var(--ink-muted-dark));
+
+    --border-subtle: light-dark(var(--border-hairline-light), var(--border-hairline-dark));
+    --border-exam: light-dark(var(--border-exam-light), var(--border-exam-dark));
+
+    --pastel-lavender: light-dark(var(--pastel-lavender-light), var(--pastel-lavender-dark));
+    --pastel-peach: light-dark(var(--pastel-peach-light), var(--pastel-peach-dark));
+    --pastel-lime: light-dark(var(--pastel-lime-light), var(--pastel-lime-dark));
+    --pastel-teal: light-dark(var(--pastel-teal-light), var(--pastel-teal-dark));
+
+    --accent-indigo: light-dark(var(--accent-indigo-light), var(--accent-indigo-dark));
+    --accent-indigo-hover: light-dark(var(--accent-indigo-hover-light), var(--accent-indigo-hover-dark));
+    --accent-teal: light-dark(var(--accent-teal-light), var(--accent-teal-dark));
+    --accent-teal-hover: light-dark(var(--accent-teal-hover-light), var(--accent-teal-hover-dark));
+
+    --status-danger: light-dark(var(--status-danger-light), var(--status-danger-dark));
+    --status-warning: light-dark(var(--status-warning-light), var(--status-warning-dark));
+
+    --scrollbar-track: light-dark(#eceae3, #171a26);
+    --scrollbar-thumb: light-dark(#75778a, #7d829c);
+  }
+
+  /* MANDATORY: Viewport-wide color-scheme and <meta name="color-scheme"> synchronization */
+  color-scheme: light dark;
+  accent-color: var(--accent-indigo);
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+
+  &:has(> head > meta[name="color-scheme"][content="dark"]) {
+    color-scheme: dark;
+  }
+
+  &:has(> head > meta[name="color-scheme"][content="light"]) {
+    color-scheme: light;
+  }
+}
+
+/* Forced Colors (High Contrast Mode) accessibility adjustments */
+@media (forced-colors: active) {
+  :root {
+    --border-subtle: CanvasText;
+    --border-exam: CanvasText;
+  }
+}
+
+html,
+body {
+  background-color: var(--bg-canvas);
+  color: var(--ink-primary);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visually hidden utility that remains accessible to screen readers and reveals on focus when interactive */
+.visually-hidden:where(:not(:focus-within, :active)) {
+  position: absolute !important;
+  clip-path: inset(50%) !important;
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
+
+/* Accessible high-contrast focus ring using :focus-visible */
+:where(a:any-link, button, input, select, textarea, [tabindex]:not([tabindex="-1"])):focus-visible {
+  outline: 3px solid var(--accent-indigo);
+  outline-offset: 2px;
+}
+
+/* Native modal <dialog> scroll containment without mutating body overflow */
+dialog:modal {
+  overscroll-behavior: contain;
+}
+
+dialog::backdrop {
+  overflow: hidden;
+  overscroll-behavior: contain;
+  background-color: rgb(15 17 26 / 0.55);
+  backdrop-filter: blur(3px);
+}

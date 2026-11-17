@@ -1,0 +1,1635 @@
+{
+  "meta": {
+    "title": "MunoTrainer – Lernhilfen & Lösungsstrategien",
+    "version": "1.0.0",
+    "uiLanguage": "de",
+    "contentLanguages": [
+      "de",
+      "ar"
+    ],
+    "totalGuides": 32,
+    "totalWorkedExamples": 64
+  },
+  "guides": [
+    {
+      "id": "guide-1.1",
+      "subcategoryId": "1.1",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "grundrechenaufgaben",
+      "titleDe": "Grundrechenaufgaben",
+      "titleAr": "العمليات الحسابية الأساسية",
+      "questionCount": 16,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.1",
+      "coreRuleDe": "Schriftliches Rechnen ohne Taschenrechner: Stellenwerte exakt untereinander schreiben (Komma unter Komma) und bei Multiplikation/Division zuerst ohne Komma rechnen, dann Nachkommastellen zählen.",
+      "coreRuleAr": "القاعدة الذهبية: في الجمع والطرح ضع الفاصلة العشرية تحت الفاصلة تماماً. في الضرب تجاهل الفواصل مؤقتاً، اضرب الأعداد الصحيحة، ثم أعد الفاصلة بعدد الخانات العشرية الكلي.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Stellenwerte ausrichten (Einer, Zehner, Nachkommastellen mit Nullen auffüllen).",
+          "ar": "رتّب المنازل بدقة وأكمل الخانات العشرية الناقصة بأصفار."
+        },
+        {
+          "step": 2,
+          "de": "Bei Multiplikation: Nachkommastellen beider Faktoren addieren.",
+          "ar": "عند الضرب: اجمع عدد الخانات العشرية في الرقمين لتحديد مكان الفاصلة في الناتج."
+        },
+        {
+          "step": 3,
+          "de": "Ergebnis ohne Tausenderpunkt notieren (z. B. 14042 statt 14.042).",
+          "ar": "اكتب الناتج النهائي بدون نقاط آلاف (مثال: 14042) لتجنب أخطاء الإدخال."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Überträge bei mehrstelliger Subtraktion vergessen oder Tausenderpunkte eingeben.",
+          "ar": "نسيان الاستلاف في الطرح المتعدد أو كتابة نقطة الآلاف في حقل الإجابة."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "12,15 × 0,08 =",
+          "answerDe": "0,972",
+          "stepsDe": "1) Ohne Komma rechnen: 1215 × 8 = 9720. 2) Nachkommastellen zählen: 2 + 2 = 4 Stellen. 3) Komma um 4 Stellen nach links: 0,9720 = 0,972.",
+          "stepsAr": "1) نضرب بدون فواصل: 1215 × 8 = 9720. 2) نعد الخانات بعد الفاصلة: خانتان + خانتان = 4 خانات. 3) نحرك الفاصلة 4 خانات لليسار فيصبح الناتج 0,972."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "26.415 ÷ 45 =",
+          "answerDe": "587",
+          "stepsDe": "1) 264 ÷ 45 = 5 (Rest 39). 2) 391 ÷ 45 = 8 (Rest 31). 3) 315 ÷ 45 = 7 (Rest 0) → 587.",
+          "stepsAr": "1) نقسم 264 على 45 = 5 والباقي 39. 2) ننزل 1 ليصبح 391 ÷ 45 = 8 والباقي 31. 3) ننزل 5 ليصبح 315 ÷ 45 = 7، فالناتج 587."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.2",
+      "subcategoryId": "1.2",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "kopfrechnen",
+      "titleDe": "Kopfrechnen",
+      "titleAr": "الحساب الذهني السريع",
+      "questionCount": 18,
+      "recommendedTimeMinutes": 4,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.2",
+      "coreRuleDe": "Zahlen in bequeme Zehner- oder Hunderterblöcke zerlegen (Distributivgesetz: a × 21 = a × 20 + a × 1) und Quadratzahlen bis 25² auswendig parat haben.",
+      "coreRuleAr": "القاعدة الذهبية: قسّم الأرقام الصعبة إلى عشرات وآحاد (مثلاً الضرب في 21 = الضرب في 20 + العدد نفسه)، واحفظ مربعات الأعداد حتى 25² لتوفير نصف الوقت.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Multiplikation aufspalten: 13 × 21 = (13 × 20) + 13 = 260 + 13 = 273.",
+          "ar": "فكك الضرب: 13 × 21 تعني (13 × 20) + 13 = 260 + 13 = 273."
+        },
+        {
+          "step": 2,
+          "de": "Bei Addition/Subtraktion zuerst Zehner und Einer getrennt verrechnen.",
+          "ar": "في الجمع والطرح اجمع العشرات معاً ثم الآحاد معاً لتقليل الحمل الذهني."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Zeitverlust durch zu langes Verweilen an einer Aufgabe – bei 4 Minuten Zeitlimit zügig weitergehen.",
+          "ar": "إضاعة الوقت في مسألة واحدة؛ الاختبار يعتمد على السرعة والتركيز تحت الضغط."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "23 × 51 =",
+          "answerDe": "1173",
+          "stepsDe": "23 × 50 + 23 × 1 = 1150 + 23 = 1173.",
+          "stepsAr": "نضرب 23 × 50 = 1150، ثم نضيف 23 × 1 = 23، فيكون المجموع 1173."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "(5 + 3)² – 10 =",
+          "answerDe": "54",
+          "stepsDe": "1) Klammer: 5 + 3 = 8. 2) Potenz: 8² = 64. 3) Subtraktion: 64 - 10 = 54.",
+          "stepsAr": "1) القوس أولاً: 5 + 3 = 8. 2) التربيع: 8² = 64. 3) الطرح: 64 - 10 = 54."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.3",
+      "subcategoryId": "1.3",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "rechenoperationen-einsetzen",
+      "titleDe": "Rechenoperationen einsetzen",
+      "titleAr": "إكمال العلامات الحسابية",
+      "questionCount": 16,
+      "recommendedTimeMinutes": 10,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.3",
+      "coreRuleDe": "Immer die Punkt-vor-Strich-Regel (× und ÷ vor + und -) beachten! Prüfe zuerst, ob Division ohne Rest möglich ist, um die Operatoren schnell einzugrenzen.",
+      "coreRuleAr": "القاعدة الذهبية: الضرب والقسمة يسبقان الجمع والطرح دائماً! ابدأ باختبار القسمة إذا كان الرقمان يقبلان القسمة بدون باقٍ لتكتشف الحل في ثوانٍ.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Zielwert (rechts vom =) mit den Zahlen links vergleichen: Ist das Ergebnis groß, brauche ich × oder +.",
+          "ar": "قارن الناتج النهائي بالأرقام: إذا كان كبيراً جداً فكر في (×)، وإذا كان صغيراً فكر في (-) أو (÷)."
+        },
+        {
+          "step": 2,
+          "de": "Punkt-vor-Strich beim Einsetzen zwingend anwenden.",
+          "ar": "طبق أولوية الضرب والقسمة على الجمع والطرح عند التحقق من المعادلة."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Von links nach rechts rechnen, ohne Punkt-vor-Strich zu beachten (z. B. 10 + 14 ÷ 2 = 17, NICHT 12!).",
+          "ar": "الحساب من اليسار لليمين وتجاهل أولوية القسمة (مثلاً 10 + 14 ÷ 2 = 17 وليس 12)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "10 ___ 14 ___ 2 = 17",
+          "answerDe": "+, ÷",
+          "stepsDe": "14 ÷ 2 = 7 (Punktrechnung zuerst), danach 10 + 7 = 17.",
+          "stepsAr": "نضع (+) ثم (÷): نحسب 14 ÷ 2 = 7 أولاً، ثم 10 + 7 = 17."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "16 ___ 3 ___ 4 = 4",
+          "answerDe": "-, ×",
+          "stepsDe": "3 × 4 = 12 (Punktrechnung zuerst), danach 16 - 12 = 4.",
+          "stepsAr": "نضع (-) ثم (×): نحسب 3 × 4 = 12 أولاً، ثم 16 - 12 = 4."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.4",
+      "subcategoryId": "1.4",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "klammerrechnung",
+      "titleDe": "Klammerrechnung",
+      "titleAr": "حساب الأقواس وأولوية العمليات",
+      "questionCount": 30,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.4",
+      "coreRuleDe": "Klammern immer von INNEN nach AUSSEN auflösen: Zuerst [eckige] oder innerste Klammern, dann (runde) Klammern, dann {geschweifte}. Minus vor der Klammer dreht alle Vorzeichen darin um!",
+      "coreRuleAr": "القاعدة الذهبية: فك الأقواس دائماً من الداخل إلى الخارج (القوس الداخلي ثم الأوسط ثم الخارجي). انتبه: إشارة السالب (-) قبل القوس تعكس إشارة الناتج بداخله!",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Innerste Klammer berechnen und durch ihren Zahlenwert ersetzen.",
+          "ar": "احسب قيمة أعمق قوس داخلي واستبدله برقمه."
+        },
+        {
+          "step": 2,
+          "de": "Potenzen und Punktrechnung (×, ÷) vor Strichrechnung (+, -) ausführen.",
+          "ar": "نفذ الأسس ثم الضرب والقسمة قبل الجمع والطرح."
+        },
+        {
+          "step": 3,
+          "de": "Doppeltes Minus beachten: - (-x) wird zu + x.",
+          "ar": "تذكر قاعدة الإشارات: طرح عدد سالب يتحول إلى جمع: - (-5) = +5."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Vorzeichenfehler bei - (a - b) oder bei negativen Potenzen wie (-3)³ = -27 vs. (-2)⁴ = +16.",
+          "ar": "الخطأ في الإشارة السالبة أمام القوس، أو في الأسس السالبة (الأس الفردي يبقي السالب والزوجي يلغيه)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "64 + 26 - (37 - [20 + 18]) - 16 =",
+          "answerDe": "75",
+          "stepsDe": "1) [20 + 18] = 38. 2) (37 - 38) = -1. 3) 64 + 26 - (-1) - 16 = 90 + 1 - 16 = 75.",
+          "stepsAr": "1) القوس الداخلي: [20 + 18] = 38. 2) القوس الخارجي: (37 - 38) = -1. 3) 64 + 26 - (-1) - 16 = 90 + 1 - 16 = 75."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "(-3)³ + (-2)⁴ =",
+          "answerDe": "-11",
+          "stepsDe": "1) (-3)³ = -27 (ungerade Potenz bleibt negativ). 2) (-2)⁴ = +16 (gerade Potenz wird positiv). 3) -27 + 16 = -11.",
+          "stepsAr": "1) (-3)³ = -27 (أس فردي). 2) (-2)⁴ = +16 (أس زوجي). 3) المجموع: -27 + 16 = -11."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.5",
+      "subcategoryId": "1.5",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "bruchrechnung",
+      "titleDe": "Bruchrechnung",
+      "titleAr": "حساب الكسور",
+      "questionCount": 12,
+      "recommendedTimeMinutes": 15,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.5",
+      "coreRuleDe": "Addition/Subtraktion: Brüche erst auf den gemeinsamen Hauptnenner bringen. Multiplikation: Zähler × Zähler und Nenner × Nenner. Division: Mit dem Kehrwert multiplizieren!",
+      "coreRuleAr": "القاعدة الذهبية: في الجمع والطرح وحّد المقامات أولاً. في الضرب اضرب البسط بالبسط والمقام بالمقام. في القسمة اقلب الكسر الثاني واضرب!",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Gemischte Zahlen (z. B. 4 2/3) zuerst in unechte Brüche umwandeln: (4×3 + 2)/3 = 14/3.",
+          "ar": "حوّل الأعداد الكسرية (مثل 4 2/3) إلى كسور غير فعلية: (4×3 + 2)/3 = 14/3."
+        },
+        {
+          "step": 2,
+          "de": "Vor dem Multiplizieren über Kreuz kürzen, um kleine Zahlen zu erhalten.",
+          "ar": "اختصر الأرقام قطرياً قبل الضرب لتسهيل الحساب."
+        },
+        {
+          "step": 3,
+          "de": "Endergebnis vollständig kürzen (z. B. 15/12 = 5/4).",
+          "ar": "بسّط الكسر النهائي لأبسط صورة."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Zähler und Nenner bei der Addition direkt addieren (z. B. 1/2 + 1/3 ≠ 2/5!).",
+          "ar": "جمع البسط مع البسط والمقام مع المقام مباشرة دون توحيد المقامات."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "6/4 + 1/5 =",
+          "answerDe": "17/10",
+          "stepsDe": "1) 6/4 kürzen zu 3/2. 2) Hauptnenner 10: 15/10 + 2/10 = 17/10.",
+          "stepsAr": "1) نبسط 6/4 إلى 3/2. 2) نوحّد المقام على 10: 15/10 + 2/10 = 17/10."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "4 3/2 ÷ 2 3/2 =",
+          "answerDe": "11/7",
+          "stepsDe": "1) Umwandeln: 4 3/2 = 11/2 und 2 3/2 = 7/2. 2) Kehrwert: (11/2) × (2/7) = 11/7.",
+          "stepsAr": "1) نحول إلى كسور: 11/2 ÷ 7/2. 2) نضرب بالمقلوب: (11/2) × (2/7) = 11/7."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.6",
+      "subcategoryId": "1.6",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "ergebnisse-schaetzen",
+      "titleDe": "Ergebnisse schätzen",
+      "titleAr": "تقدير النتائج والتقريب",
+      "questionCount": 26,
+      "recommendedTimeMinutes": 15,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.6",
+      "coreRuleDe": "Nicht exakt ausrechnen! Zahlen geschickt auf glatte Zehner/Hunderter runden und die Endziffer (Einerstelle) prüfen, um falsche Optionen sofort auszuschließen.",
+      "coreRuleAr": "القاعدة الذهبية: لا تضيع الوقت في الحساب الكامل! قرّب الأرقام لأقرب عشرة أو مئة، وافحص خانة الآحاد (أول رقم من اليمين) لاستبعاد الخيارات الخاطئة فوراً.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Überschlag machen: 548 × 315 ≈ 550 × 300 = 165.000 (alles weit weg fällt raus).",
+          "ar": "قدّر القيمة التقريبية: 548 × 315 ≈ 550 × 300 = 165,000."
+        },
+        {
+          "step": 2,
+          "de": "Endziffern-Check: 8 × 5 = 40 → das Ergebnis muss auf 0 enden!",
+          "ar": "فحص خانة الآحاد: 8 × 5 = 40، إذن الجواب الصحيح يجب أن ينتهي بصفر (0)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Verwechslung von 6 € von 4 € (= 150 %) mit 4 € von 6 € (= 66,7 %).",
+          "ar": "الخلط بين النسبة الأكبر من 100% (مثل 6 € من 4 € = 150%) والنسبة الأصغر من 100%."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "548 × 315 =",
+          "answerDe": "172.620",
+          "stepsDe": "1) Überschlag: ~170.000. 2) Endziffer: 8 × 5 = 40 (endet auf 0). Nur D (172.620) passt.",
+          "stepsAr": "1) التقدير ~170,000. 2) الآحاد 8 × 5 ينتهي بـ 0، والخيار D هو الوحيد المطابق."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "69,2 % von 1.845 =",
+          "answerDe": "1.276,74",
+          "stepsDe": "70 % von 1.845 = 0,7 × 1.845 = 1.291,5. Da 69,2 % etwas weniger als 70 % ist, liegt das Ergebnis knapp darunter (1.276,74).",
+          "stepsAr": "نحسب 70% تقريباً: 0.7 × 1845 = 1291.5، وبما أن المطلوب 69.2% فالجواب أقل بقليل (1276.74)."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.7",
+      "subcategoryId": "1.7",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "masse-und-einheiten",
+      "titleDe": "Maße und Einheiten",
+      "titleAr": "تحويل المقاييس والوحدات",
+      "questionCount": 10,
+      "recommendedTimeMinutes": 8,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.7",
+      "coreRuleDe": "Umrechnungsfaktoren merken: Länge (×10 pro Stufe, km→m ×1000), Fläche (×100 pro Stufe), Volumen (×1000 pro Stufe, 1 Liter = 1 dm³ = 1.000 cm³), 1 Zentner = 50 kg, 1 Hektar = 10.000 m².",
+      "coreRuleAr": "القاعدة الذهبية: في الطول نضرب بـ 10 لكل درجة، في المساحة بـ 100، وفي الحجم بـ 1000 (1 لتر = 1000 سم³). انتبه لوحدات ألمانيا الخاصة: 1 Zentner = 50 كغ، و 1 Hektar = 10,000 م².",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Dimension prüfen: Hoch 1 (Länge: Faktor 10), Hoch 2 (Fläche: Faktor 100), Hoch 3 (Volumen: Faktor 1.000).",
+          "ar": "حدد البُعد: طول (×10)، مساحة (×100)، حجم (×1000)."
+        },
+        {
+          "step": 2,
+          "de": "Größere Einheit → kleinere Einheit = Multiplizieren; kleinere → größere = Dividieren.",
+          "ar": "من وحدة كبيرة لصغيرة نضرب، ومن صغيرة لكبيرة نقسم."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "1 Zentner wird oft fälschlich mit 100 kg statt 50 kg gerechnet (100 kg = 1 Doppelzentner).",
+          "ar": "الاعتقاد بأن 1 Zentner يساوي 100 كغ؛ الصحيح في ألمانيا أنه يساوي 50 كغ فقط."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Wie viele Quadratmeter sind 420 Quadratzentimeter?",
+          "answerDe": "0,042",
+          "stepsDe": "cm² → dm² (÷100) → m² (÷100) = ÷10.000. 420 ÷ 10.000 = 0,042 m².",
+          "stepsAr": "للتحويل من سم² إلى م² نقسم على 10,000 (100 × 100): 420 ÷ 10000 = 0,042."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Wie viele Gramm sind 2,5 Zentner?",
+          "answerDe": "125.000",
+          "stepsDe": "1 Zentner = 50 kg → 2,5 × 50 kg = 125 kg = 125.000 g.",
+          "stepsAr": "1 قنطار ألماني (Zentner) = 50 كغ، إذن 2.5 × 50 = 125 كغ = 125,000 غرام."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.8",
+      "subcategoryId": "1.8",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "gleichungen-loesen",
+      "titleDe": "Gleichungen lösen",
+      "titleAr": "حل المعادلات الجبرية",
+      "questionCount": 8,
+      "recommendedTimeMinutes": 10,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.8",
+      "coreRuleDe": "Waage-Prinzip: Alle Terme mit x auf eine Seite bringen, alle reinen Zahlen auf die andere Seite – bei jedem Seitenwechsel dreht sich das Vorzeichen (+ ↔ -) um!",
+      "coreRuleAr": "القاعدة الذهبية (الميزان): اجمع حدود x في طرف والأرقام المجردة في الطرف الآخر، وكل حد ينتقل عبر علامة (=) تنعكس إشارته (+ إلى - والعكس)، ثم اقسم على معامل x.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "x-Terme auf die Seite mit dem größeren x-Wert holen (vermeidet negative Vorzeichen).",
+          "ar": "انقل حدود x إلى الطرف ذي المعامل الأكبر لتجنب الإشارات السالبة."
+        },
+        {
+          "step": 2,
+          "de": "Zahlen auf die Gegenseite bringen und zusammenfassen.",
+          "ar": "انقل الأرقام للطرف المقابل واجمعها."
+        },
+        {
+          "step": 3,
+          "de": "Durch den Faktor vor x teilen und Ergebnis kurz einsetzen (Probe).",
+          "ar": "اقسم على الرقم المرافق لـ x وتحقق بالتعويض السريع."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Beim Verschieben auf die andere Seite das Vorzeichen nicht umkehren.",
+          "ar": "نسيان عكس إشارة الرقم أو المتغير عند نقله للطرف الآخر من المعادلة."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "13x – 4 = 52 + 5x",
+          "answerDe": "x = 7",
+          "stepsDe": "1) -5x auf beiden Seiten: 8x - 4 = 52. 2) +4 auf beiden Seiten: 8x = 56. 3) ÷8: x = 7.",
+          "stepsAr": "1) نطرح 5x من الطرفين: 8x - 4 = 52. 2) نجمع 4 للطرفين: 8x = 56. 3) نقسم على 8: x = 7."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "–4x – 6 = –18 + 2x",
+          "answerDe": "x = 2",
+          "stepsDe": "1) +4x auf beiden Seiten: -6 = -18 + 6x. 2) +18 auf beiden Seiten: 12 = 6x. 3) ÷6: x = 2.",
+          "stepsAr": "1) نضيف 4x للطرفين: -6 = -18 + 6x. 2) نضيف 18 للطرفين: 12 = 6x. 3) نقسم على 6: x = 2."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.9",
+      "subcategoryId": "1.9",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "geometrie",
+      "titleDe": "Geometrie",
+      "titleAr": "الهندسة والمساحات والحجوم",
+      "questionCount": 10,
+      "recommendedTimeMinutes": 15,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.9",
+      "coreRuleDe": "Grundformeln beherrschen: Rechteck (A = a·b, U = 2a + 2b), Würfel (G = a², O = 6a², V = a³), Kreis (d = 2r, U = π·d, A = π·r² mit π ≈ 3,14159).",
+      "coreRuleAr": "القاعدة الذهبية: احفظ القوانين الثلاثة: المستطيل (المساحة a×b، المحيط 2a+2b)، المكعب (القاعدة a²، السطح 6a²، الحجم a³)، الدائرة (المحيط π×d، المساحة π×r²).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Gegebene Größe in die Formel einsetzen und nach der fehlenden Seite/dem Radius umstellen.",
+          "ar": "عوّض المعطى في القانون لاستخراج الضلع أو نصف القطر المجهول أولاً."
+        },
+        {
+          "step": 2,
+          "de": "Mit dem ermittelten Grundmaß (a oder r) alle übrigen Größen berechnen und auf 3 Nachkommastellen runden.",
+          "ar": "استخدم الضلع أو نصف القطر لحساب بقية المطلوب وقرّب لـ 3 خانات عشرية."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Beim Kreis Durchmesser (d) und Radius (r) verwechseln: Für die Fläche A = π · r² immer erst d ÷ 2 teilen!",
+          "ar": "الخلط بين القطر d ونصف القطر r عند حساب مساحة الدائرة A = π · r²."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Rechteck: Seite a = 6, Umfang U = 32. Gesucht: Seite b und Flächeninhalt A.",
+          "answerDe": "Seite b: 10 | Flächeninhalt: 60",
+          "stepsDe": "1) U = 2a + 2b → 32 = 12 + 2b → 2b = 20 → b = 10. 2) A = 6 × 10 = 60.",
+          "stepsAr": "1) المحيط 32 = 2×6 + 2b ← 2b = 20 ← b = 10. 2) المساحة = 6 × 10 = 60."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Würfel: Oberfläche O = 4.056. Gesucht: Seite a, Grundfläche G, Volumen V.",
+          "answerDe": "Seite a: 26 | Grundfläche: 676 | Volumen: 17576",
+          "stepsDe": "1) G = O ÷ 6 = 4.056 ÷ 6 = 676. 2) a = √676 = 26. 3) V = 26³ = 17.576.",
+          "stepsAr": "1) مساحة الوجه الواحد = 4056 ÷ 6 = 676. 2) الضلع = جذر 676 = 26. 3) الحجم = 26³ = 17576."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.10",
+      "subcategoryId": "1.10",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "prozentrechnung",
+      "titleDe": "Prozentrechnung",
+      "titleAr": "النسب المئوية",
+      "questionCount": 18,
+      "recommendedTimeMinutes": 15,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.10",
+      "coreRuleDe": "Die magische Formel: Prozentwert (W) = Grundwert (G) × Prozentsatz (p ÷ 100). Wichtig: 100 % ist IMMER der ursprüngliche Ausgangswert VOR einer Erhöhung oder einem Rabatt!",
+      "coreRuleAr": "القاعدة الذهبية: القيمة المئوية = القيمة الأساسية × (النسبة ÷ 100). تذكر دائماً: 100% هي السعر أو العدد الأصلي قبل الزيادة أو الخصم!",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Erkennen, was gesucht ist: Rabatt/Anteil (W), Prozentsatz (p %) oder Ausgangswert (G).",
+          "ar": "حدد المجهول: هل هو الجزء (W)، أم النسبة (p%)، أم الأصل (G)؟"
+        },
+        {
+          "step": 2,
+          "de": "Bei Rabatt/Aufschlag direkt mit Faktor rechnen: +20 % → × 1,20; -20 % → × 0,80.",
+          "ar": "عند الزيادة أو الخصم استخدم المعامل المباشر: زيادة 20% تعني (× 1.20)، وخصم 20% تعني (× 0.80)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Nach 20 % Aufschlag auf 900 € darf man NICHT 20 % von 900 € abziehen – sondern 900 € ÷ 1,20 = 750 € rechnen!",
+          "ar": "بعد زيادة 20% ليصبح المبلغ 900 €، لا تطرح 20% من 900، بل اقسم 900 ÷ 1.20 = 750 €."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Der Preis steigt von 0,25 € auf 0,30 €. Wie hoch ist die Steigerung in %?",
+          "answerDe": "20 %",
+          "stepsDe": "Differenz = 0,05 €. Bezugspunkt ist der alte Preis (0,25 €): 0,05 ÷ 0,25 = 1/5 = 20 %.",
+          "stepsAr": "الزيادة = 0.05 €، ونقسمها على السعر الأصلي 0.25 €: 0.05 ÷ 0.25 = 0.20 = 20%."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "35 % Singlehaushalte und 260 Mio. Mehrpersonenhaushalte in der EU. Wie viele Singlehaushalte?",
+          "answerDe": "140 Mio.",
+          "stepsDe": "1) 100 % - 35 % = 65 % entsprechen 260 Mio. 2) 1 % = 260 ÷ 65 = 4 Mio. 3) 35 % = 35 × 4 = 140 Mio.",
+          "stepsAr": "1) الباقي 65% يساوي 260 مليون. 2) إذن 1% = 260 ÷ 65 = 4 مليون. 3) إذن 35% = 35 × 4 = 140 مليون."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.11",
+      "subcategoryId": "1.11",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "zinsrechnung",
+      "titleDe": "Zinsrechnung",
+      "titleAr": "حساب الفوائد البنكية",
+      "questionCount": 8,
+      "recommendedTimeMinutes": 12,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.11",
+      "coreRuleDe": "Deutsche Zinsmethode (30/360): Jeder Monat hat 30 Tage, das Jahr hat 360 Tage. Formel: Z = (K × p × t) ÷ (100 × 360).",
+      "coreRuleAr": "القاعدة الذهبية (الطريقة البنكية الألمانية): الشهر = 30 يوماً والسنة = 360 يوماً. القانون: الفائدة = (رأس المال × النسبة × عدد الأيام) ÷ (100 × 360).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Zeitraum in Zinstage umrechnen: z. B. 9 Monate und 10 Tage = 9 × 30 + 10 = 280 Tage.",
+          "ar": "حوّل المدة إلى أيام بنكية: مثلاً 9 أشهر و10 أيام = (9 × 30) + 10 = 280 يوماً."
+        },
+        {
+          "step": 2,
+          "de": "Nach der gesuchten Größe (Zinsen Z, Kapital K, Zinssatz p oder Tage t) umstellen.",
+          "ar": "عوّض في القانون لاستخراج الفائدة أو رأس المال أو عدد الأيام."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Monatszinsen mit Jahreszinsen verwechseln (Monatszins immer erst × 12 nehmen, um den Jahreszins zu erhalten).",
+          "ar": "الخلط بين الفائدة الشهرية والسنوية (اضرب الفائدة الشهرية في 12 أولاً للحصول على الفائدة السنوية)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Kapital 22.500 € zu 7,5 % für 9 Monate und 10 Tage. Wie hoch sind die Zinsen?",
+          "answerDe": "1.312,50 €",
+          "stepsDe": "1) Tage t = 9×30 + 10 = 280. 2) Z = (22.500 × 7,5 × 280) ÷ 36.000 = 1.312,50 €.",
+          "stepsAr": "1) الأيام = 280 يوماً. 2) الفائدة = (22500 × 7.5 × 280) ÷ 36000 = 1312,50 €."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Monatliche Zinsen = 637,50 € bei 8,5 % Zinssatz. Wie hoch ist die Hypothek (Kapital)?",
+          "answerDe": "90.000 €",
+          "stepsDe": "1) Jahreszins = 637,50 € × 12 = 7.650 €. 2) Kapital K = 7.650 € ÷ 0,085 = 90.000 €.",
+          "stepsAr": "1) الفائدة السنوية = 637.50 × 12 = 7650 €. 2) رأس المال = 7650 ÷ 0.085 = 90,000 €."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.12",
+      "subcategoryId": "1.12",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "dreisatz",
+      "titleDe": "Dreisatz",
+      "titleAr": "التناسب الطردي والعكسي (قاعدة الثلاثة)",
+      "questionCount": 22,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.12",
+      "coreRuleDe": "Immer zuerst fragen: Proportionales Verhältnis ('Je mehr, desto mehr' → ÷ und ×) oder Antiproportionales Verhältnis ('Je mehr Arbeiter/Pumpen, desto WENIGER Zeit' → × und ÷)?",
+      "coreRuleAr": "القاعدة الذهبية: حدد نوع التناسب أولاً: طردي (كلما زاد زاد ← نقسم ثم نضرب) أم عكسي (كلما زاد العمال قلّ الوقت ← نضرب ثم نقسم).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Auf eine Einheit (1 Arbeiter, 1 Stunde, 1 Tag) herunterrechnen.",
+          "ar": "ارجع دائماً إلى الوحدة الواحدة (عامل واحد أو ساعة واحدة)."
+        },
+        {
+          "step": 2,
+          "de": "Bei zusammengesetztem Dreisatz (Arbeiter + Stunden + Fläche) alle Faktoren einzeln nacheinander anpassen.",
+          "ar": "في التناسب المركب (عمال + ساعات + مساحة) عالج كل متغير على حدة خطوة بخطوة."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Bei 'sich und ihre 11 Kollegen' sind es 12 Personen insgesamt (nicht 11!).",
+          "ar": "عبارة 'هي و11 زميلاً' تعني 12 شخصاً في المجموع وليس 11!"
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "5 Mähdrescher bestellen ein Feld in 9 Tagen. Wie lange brauchen 15 Mähdrescher?",
+          "answerDe": "3 Tage",
+          "stepsDe": "Antiproportional (3-mal so viele Maschinen → 1/3 der Zeit): 9 Tage ÷ 3 = 3 Tage.",
+          "stepsAr": "تناسب عكسي: تضاعف عدد الآلات 3 مرات فيقل الوقت إلى الثلث: 9 ÷ 3 = 3 أيام."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "2 Maurer brauchen für 32 m² 4 Stunden. Wie lange brauchen 3 Maurer für 144 m²?",
+          "answerDe": "12 Stunden",
+          "stepsDe": "1) Leistung: 2 Maurer schaffen 32 m² in 4 h → 1 Maurer schafft 4 m²/h. 2) 3 Maurer schaffen 12 m²/h. 3) 144 m² ÷ 12 m²/h = 12 Stunden.",
+          "stepsAr": "1) إنتاجية العامل الواحد = 32 ÷ (2×4) = 4 م²/ساعة. 2) 3 عمال ينتجون 12 م²/ساعة. 3) 144 ÷ 12 = 12 ساعة."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.13",
+      "subcategoryId": "1.13",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "mathematik-gemischt",
+      "titleDe": "Mathematik (Gemischt)",
+      "titleAr": "مسائل رياضية متنوعة",
+      "questionCount": 8,
+      "recommendedTimeMinutes": 10,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.13",
+      "coreRuleDe": "Gemischte Textaufgaben Schritt für Schritt zerlegen: Wenn sich Prozentwerte nacheinander ändern (z. B. +15 % Service und darauf +20 % Steuer), niemals die Prozente einfach addieren, sondern nacheinander multiplizieren!",
+      "coreRuleAr": "القاعدة الذهبية: عند تتابع نسب مئوية (مثل +15% خدمة ثم +20% ضريبة على المجموع الجديد)، لا تجمع النسبتين (ليس 35%!) بل اضرب بالعوامل بالتتابع: × 1.15 ثم × 1.20.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Text in Teilbeträge zerlegen und Zwischenergebnisse notieren.",
+          "ar": "قسّم المسألة إلى مراحل واكتب الناتج الوسيط لكل مرحلة."
+        },
+        {
+          "step": 2,
+          "de": "Auf Bezugsgrößen achten ('die Hälfte von dem, was ich meiner Mutter geschenkt habe').",
+          "ar": "انتبه للمرجع في الجملة (مثل: نصف ما أعطيته لأمي، وليس نصف المبلغ الكلي)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Prozentsätze bei mehrstufigen Aufschlägen addieren statt multiplizieren.",
+          "ar": "جمع النسب المئوية المتتالية بدلاً من ضربها."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Essen kostet 40 €. Erst +15 % Serviceaufschlag, auf den neuen Betrag +20 % Steuer. Gesamtpreis?",
+          "answerDe": "55,20 €",
+          "stepsDe": "1) 40 € × 1,15 = 46,00 €. 2) 46,00 € × 1,20 = 55,20 €.",
+          "stepsAr": "1) بعد الخدمة: 40 × 1.15 = 46 €. 2) بعد الضريبة: 46 × 1.20 = 55,20 €."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Von 1.000 € erhält Mama 1/4, Papa die Hälfte von Mamas Anteil, Bruder 1/5 von Papas Anteil. Rest?",
+          "answerDe": "600 €",
+          "stepsDe": "Mama = 250 €; Papa = 125 €; Bruder = 25 €. Verschenkt = 400 € → Rest = 600 €.",
+          "stepsAr": "الأم = 250 €، الأب = 125 €، الأخ = 25 €. المجموع المعطى = 400 €، والباقي = 600 €."
+        }
+      ]
+    },
+    {
+      "id": "guide-1.14",
+      "subcategoryId": "1.14",
+      "categoryId": "cat-1",
+      "categoryCode": "1",
+      "categoryTitleDe": "Mathematik & Rechnen",
+      "categoryTitleAr": "الرياضيات والحساب",
+      "slug": "mathematisches-zahlenverstaendnis",
+      "titleDe": "Mathematisches Zahlenverständnis",
+      "titleAr": "الفهم الرياضي وتحليل الأرقام",
+      "questionCount": 36,
+      "recommendedTimeMinutes": 30,
+      "practiceHref": "/practice?category=cat-1&subcategory=1.14",
+      "coreRuleDe": "Bei Durchschnittswerten immer über die Gesamtsumme gehen: Gesamtsumme = Durchschnitt × Anzahl. Bei Geschwindigkeit gilt: v = s ÷ t (km/h ÷ 3,6 = m/s).",
+      "coreRuleAr": "القاعدة الذهبية: في مسائل المتوسط الحسابي ابدأ دائماً بحساب المجموع الكلي (المجموع = المتوسط × العدد). ولتحويل السرعة من km/h إلى m/s اقسم على 3.6.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Durchschnitt: Gesamtpunktzahl berechnen, Wert abziehen/addieren, durch neue Anzahl teilen.",
+          "ar": "المتوسط: احسب المجموع الأصلي، عدّله، ثم اقسم على العدد الجديد."
+        },
+        {
+          "step": 2,
+          "de": "Geschwindigkeit: 72 km/h ÷ 3,6 = 20 m/s.",
+          "ar": "السرعة: 72 كم/ساعة ÷ 3.6 = 20 متر/ثانية."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Zwei verschiedene Durchschnitte einfach mitteln, ohne die unterschiedliche Gruppengröße (Gewichtung) zu beachten.",
+          "ar": "حساب متوسط المتوسطين دون مراعاة اختلاف عدد الطلاب في كل مجموعة."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Durchschnitt von 8 Kandidaten ist 76. Der Höchstwert 92 wird entfernt. Neuer Durchschnitt?",
+          "answerDe": "73,7",
+          "stepsDe": "1) Summe = 8 × 76 = 608. 2) Neue Summe = 608 - 92 = 516. 3) 516 ÷ 7 = 73,71 ≈ 73,7.",
+          "stepsAr": "1) المجموع = 8 × 76 = 608. 2) نطرح 92 ← 516. 3) نقسم على 7 ← 73,7."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "40 % fallen schriftlich durch, von den Übrigen fallen 25 % im Gespräch durch. 180 bestehen. Wie viele begannen?",
+          "answerDe": "400",
+          "stepsDe": "1) Schriftlich bestanden: 60 % (0,60). 2) Gespräch bestanden: 75 % davon → 0,60 × 0,75 = 0,45 (45 %). 3) 180 ÷ 0,45 = 400.",
+          "stepsAr": "1) نجح في الكتابي 60%. 2) نجح في المقابلة 75% منهم ← 0.60 × 0.75 = 45%. 3) العدد الكلي = 180 ÷ 0.45 = 400."
+        }
+      ]
+    },
+    {
+      "id": "guide-2.1",
+      "subcategoryId": "2.1",
+      "categoryId": "cat-2",
+      "categoryCode": "2",
+      "categoryTitleDe": "Logik & Konzentration",
+      "categoryTitleAr": "التفكير المنطقي والتركيز",
+      "slug": "zahlenreihen",
+      "titleDe": "Logik – Zahlenreihen",
+      "titleAr": "المتتاليات العددية",
+      "questionCount": 25,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-2&subcategory=2.1",
+      "coreRuleDe": "Differenzen zwischen benachbarten Zahlen notieren! Wenn kein direktes Muster sichtbar ist, prüfe Sprünge über jede 2. oder 3. Zahl (verschachtelte Reihen) oder wechselnde Rechenarten (+, -, ×, ÷).",
+      "coreRuleAr": "القاعدة الذهبية: اكتب الفروقات بين كل رقمين متتاليين. إذا لم يظهر نمط واضح، افحص القفزات المتداخلة (كل رقمين أو كل 3 أرقام معاً).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Differenzen (Abstände) und Faktoren zwischen Zahl 1→2→3→4 aufschreiben.",
+          "ar": "اكتب الفروقات أو عوامل الضرب بين الأرقام الأربعة الأولى."
+        },
+        {
+          "step": 2,
+          "de": "Bei langen Reihen (7+ Zahlen) prüfen, ob zwei oder drei Teilreihen ineinander verschachtelt sind.",
+          "ar": "في المتتاليات الطويلة افحص وجود متتاليتين متداخلتين (الحد الأول والثالث والخامس...)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Option E ('Keine Antwort ist richtig') übersehen, wenn zwei Zahlen gesucht sind und nur die erste stimmt!",
+          "ar": "التسرع في اختيار إجابة عندما يكون الرقم الأول صحيحاً والثاني خاطئاً، متجاهلاً خيار (لا توجد إجابة صحيحة)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "11, 22, 15, 30, 23, 46, ?",
+          "answerDe": "39",
+          "stepsDe": "Muster: ×2, -7 im Wechsel (11×2=22, -7=15, ×2=30, -7=23, ×2=46, -7=39).",
+          "stepsAr": "النمط يتناوب بين (×2) و (-7): 46 - 7 = 39."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "135, 108, 207, 45, 36, 69, 15, ?",
+          "answerDe": "12, 23",
+          "stepsDe": "Dreiergruppen, die jeweils durch 3 geteilt werden: (135, 108, 207) ÷ 3 → (45, 36, 69) ÷ 3 → (15, 12, 23).",
+          "stepsAr": "مجموعات ثلاثية تُقسم على 3 في كل دورة: 36 ÷ 3 = 12 و 69 ÷ 3 = 23."
+        }
+      ]
+    },
+    {
+      "id": "guide-2.2",
+      "subcategoryId": "2.2",
+      "categoryId": "cat-2",
+      "categoryCode": "2",
+      "categoryTitleDe": "Logik & Konzentration",
+      "categoryTitleAr": "التفكير المنطقي والتركيز",
+      "slug": "schlussfolgerungen-syllogismen",
+      "titleDe": "Schlussfolgerungen / Syllogismen",
+      "titleAr": "الاستنتاج المنطقي والقياس",
+      "questionCount": 30,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-2&subcategory=2.2",
+      "coreRuleDe": "Strenge formale Logik – kein Alltagswissen verwenden! Zeichne dir gedanklich Mengenkreise: Aus 'Alle A sind B' folgt NICHT 'Alle B sind A', sondern nur 'Einige B sind A'.",
+      "coreRuleAr": "القاعدة الذهبية: التزم بالنص فقط ولا تستخدم معلوماتك العامة! من عبارة (كل A هم B) لا نستنتج أن (كل B هم A)، بل فقط أن (بعض B هم A).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "All-Aussagen ('Alle...', 'Kein...') als feste Teilmengen oder getrennte Kreise vorstellen.",
+          "ar": "تخيل العبارات الكلية (كل / لا أحد) كدوائر متداخلة أو منفصلة."
+        },
+        {
+          "step": 2,
+          "de": "Antworten mit 'Alle...' ausschließen, wenn in den Prämissen nur 'Einige...' vorkommt.",
+          "ar": "استبعد أي استنتاج يبدأ بـ (كل) إذا كانت المقدمات تحتوي على (بعض) فقط."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Verwechslung von 'Einige A sind B' mit 'Einige A sind NICHT B'.",
+          "ar": "الخلط بين (بعض A هم B) وبين (بعض A ليسوا B)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Alle Piloten sind Abenteurer. Keine Abenteurer sind Bergsteiger.",
+          "answerDe": "Alle Piloten sind keine Bergsteiger.",
+          "stepsDe": "Da Piloten komplett innerhalb der Abenteurer liegen und diese komplett von Bergsteigern getrennt sind, ist kein Pilot ein Bergsteiger.",
+          "stepsAr": "الطيارون جزء من المغامرين، والمغامرون منفصلون تماماً عن متسلقي الجبال، إذن لا يوجد طيار متسلق جبال."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Kein Schüler ist Lehrer. Einige Lehrer sind Beamte. Ein Beamter kann, muss aber nicht, Lehrer sein.",
+          "answerDe": "Einige Beamte könnten Schüler sein.",
+          "stepsDe": "Da Beamte nicht zwingend Lehrer sind, ist es logisch möglich (könnte sein), dass ein Teil der Nicht-Lehrer-Beamten Schüler ist.",
+          "stepsAr": "بما أن الموظف الحكومي ليس بالضرورة معلماً، فمن الممكن منطقياً أن يكون بعضهم طلاباً."
+        }
+      ]
+    },
+    {
+      "id": "guide-2.3",
+      "subcategoryId": "2.3",
+      "categoryId": "cat-2",
+      "categoryCode": "2",
+      "categoryTitleDe": "Logik & Konzentration",
+      "categoryTitleAr": "التفكير المنطقي والتركيز",
+      "slug": "psychotechnische-tests",
+      "titleDe": "Logik – Psychotechnische Tests",
+      "titleAr": "الاختبارات السيكوتقنية والمنطق الشامل",
+      "questionCount": 49,
+      "recommendedTimeMinutes": 35,
+      "practiceHref": "/practice?category=cat-2&subcategory=2.3",
+      "coreRuleDe": "Ruhe bewahren und Aufgabentyp sofort erkennen: Bei Buchstabencodes Alphabet-Positionen zählen (+1, +2, -3); bei Uhrzeiten bewegt sich der Stundenzeiger pro Minute um 0,5° weiter!",
+      "coreRuleAr": "القاعدة الذهبية: حدد نوع اللغز فوراً: في التشفير احسب مقدار الإزاحة الأبجدية (+1 أو -3)، وفي مسائل الساعة تذكر أن عقرب الساعات يتحرك نصف درجة (0.5°) كل دقيقة!",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Bei Analogien (A zu B wie C zu ?) zuerst die genaue Beziehung zwischen A und B benennen.",
+          "ar": "في التناظر (A إلى B مثل C إلى ؟) صِغ العلاقة بين A و B في جملة قصيرة."
+        },
+        {
+          "step": 2,
+          "de": "Bei Konzentrations-/Code-Vergleichen Zeichen blockweise (3er-Gruppen) abgleichen.",
+          "ar": "عند مقارنة الأكواد قارنها في مجموعات من 3 خانات لاكتشاف التبديل فوراً."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Bei 3:15 Uhr denken viele an 0° Winkel – falsch! Der Stundenzeiger steht auf 3 + 15/60 = 3,25 → 97,5°, Differenz = 7,5°.",
+          "ar": "في الساعة 3:15 الزاوية ليست صفراً! عقرب الساعات تقدم ربع ساعة (7.5 درجات)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Wenn CIVIL als DJWJM kodiert wird, wie wird dann PUBLIC kodiert?",
+          "answerDe": "QVCMJD",
+          "stepsDe": "Jeder Buchstabe rückt im Alphabet um +1 vor: P→Q, U→V, B→C, L→M, I→J, C→D.",
+          "stepsAr": "كل حرف يتقدم خطوة واحدة (+1) في الأبجدية: P→Q, U→V, B→C, L→M, I→J, C→D."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Eine Uhr zeigt 3:15 Uhr. Welcher Winkel besteht zwischen Stunden- und Minutenzeiger?",
+          "answerDe": "7.5°",
+          "stepsDe": "Minutenzeiger bei 15 Min = 90°. Stundenzeiger bei 3 Uhr = 90° + (15 Min × 0,5°/Min) = 97,5°. Differenz = 7,5°.",
+          "stepsAr": "عقرب الدقائق عند 90°، وعقرب الساعات عند 90° + (15 × 0.5°) = 97.5°، والفرق 7.5°."
+        }
+      ]
+    },
+    {
+      "id": "guide-2.4",
+      "subcategoryId": "2.4",
+      "categoryId": "cat-2",
+      "categoryCode": "2",
+      "categoryTitleDe": "Logik & Konzentration",
+      "categoryTitleAr": "التفكير المنطقي والتركيز",
+      "slug": "textaufgaben-logik",
+      "titleDe": "Textaufgaben (Logik & Rechnen)",
+      "titleAr": "مسائل الذكاء الكلامية",
+      "questionCount": 15,
+      "recommendedTimeMinutes": 15,
+      "practiceHref": "/practice?category=cat-2&subcategory=2.4",
+      "coreRuleDe": "Bei Rangfolgen ('schneller als', 'schwerer als') sofort eine Ungleichungskette aufschreiben (z. B. K > A > E > L). Bei Altersrätseln eine kurze Gleichung mit x aufstellen.",
+      "coreRuleAr": "القاعدة الذهبية: في مسائل المقارنة (أسرع من / أثقل من) ارسم سلسلة ترتيب فوراً (K > A > E > L) ولا تحلها في رأسك، وفي مسائل الأعمار كوّن معادلة بسيطة بـ x.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Namen mit Anfangsbuchstaben in einer Reihe von groß nach klein ordnen.",
+          "ar": "رتب الأسماء بالحروف الأولى من الأكبر للأصغر على ورقة المسودة."
+        },
+        {
+          "step": 2,
+          "de": "Bei Wettlauf-Fragen deine eigene Position bei jedem Überholvorgang aktualisieren.",
+          "ar": "في مسائل السباق حدّث مركزك بعد كل عملية تجاوز."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Beim Überholen des 5. Läufers wird man selbst 5. (nicht 4.!). Wird man danach von 2 überholt, ist man 7.",
+          "ar": "عندما تتجاوز المتسابق الخامس تصبح أنت الخامس (وليس الرابع!)، وإذا تجاوزك اثنان تصبح السابع."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Liam ist langsamer als Anna. Anna ist schneller als Emilia. Kevin ist schneller als Anna. Wer ist am schnellsten?",
+          "answerDe": "Kevin",
+          "stepsDe": "K > A, A > L, A > E → Kevin steht ganz links an der Spitze.",
+          "stepsAr": "كيفن أسرع من آنا، وآنا أسرع من ليام وإيميليا، إذن كيفن هو الأسرع."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "„In 2 Jahren bin ich doppelt so alt wie vor 4 Jahren.“ Wie alt ist die Person?",
+          "answerDe": "10 (zehn)",
+          "stepsDe": "Gleichung: x + 2 = 2 · (x - 4) → x + 2 = 2x - 8 → x = 10.",
+          "stepsAr": "المعادلة: x + 2 = 2(x - 4) ← x + 2 = 2x - 8 ← x = 10 سنوات."
+        }
+      ]
+    },
+    {
+      "id": "guide-2.5",
+      "subcategoryId": "2.5",
+      "categoryId": "cat-2",
+      "categoryCode": "2",
+      "categoryTitleDe": "Logik & Konzentration",
+      "categoryTitleAr": "التفكير المنطقي والتركيز",
+      "slug": "konzentration-merkfaehigkeit",
+      "titleDe": "Konzentration & Merkfähigkeit",
+      "titleAr": "التركيز وسرعة الانتباه والذاكرة",
+      "questionCount": 15,
+      "recommendedTimeMinutes": 8,
+      "practiceHref": "/practice?category=cat-2&subcategory=2.5",
+      "coreRuleDe": "Höchste Präzision bei minimaler Zeit: Lies Zeichenfolgen niemals als Wörter, sondern Zeichen für Zeichen (Ziffern, Groß-/Kleinschreibung, Bindestriche, O vs. 0).",
+      "coreRuleAr": "القاعدة الذهبية: لا تقرأ الأكواد ككلمات كاملة، بل افحصها خانة بخانة، وانتبه للفخاخ البصرية الشائعة مثل حرف O مقابل رقم 0، أو تبديل حرفين متجاورين.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Bei Merkaufgaben Daten in sinnvolle Päckchen gruppieren (Name – Raum – Nummer).",
+          "ar": "في تمارين الذاكرة اربط البيانات في مجموعات ذهنية قصيرة."
+        },
+        {
+          "step": 2,
+          "de": "Bei Zählaufgaben mit dem Finger/Blick systematisch von links nach rechts scannen.",
+          "ar": "في تمارين العدّ امسح السطر من اليسار لليمين ببطء وثبات دون قفز."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Zahlendreher (314 vs. 341) und Verwechslung von römischen Zahlen (IV vs. VI).",
+          "ar": "قلب الأرقام (314 مقابل 341) والخلط بين الأرقام الرومانية (IV = 4 و VI = 6)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Welcher Code stimmt exakt mit 'RP-GI-2026-IV/223-B' überein?",
+          "answerDe": "RP-GI-2026-IV/223-B",
+          "stepsDe": "Blöcke einzeln prüfen: RP-GI | 2026 | IV/223 | B.",
+          "stepsAr": "نقارن كل مقطع على حدة للتأكد من تطابق الحروف والأرقام الرومانية."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Addiere in '8 3 9 2 7 4 6 5 1' nur die Ziffern unmittelbar rechts von einer ungeraden Zahl.",
+          "answerDe": "16",
+          "stepsDe": "Ungerade Zahlen markieren: 3(→9), 9(→2), 7(→4), 5(→1). Summe: 9 + 2 + 4 + 1 = 16.",
+          "stepsAr": "نحدد الأرقام الفردية ونأخذ الرقم الذي يليها مباشرة: 9 + 2 + 4 + 1 = 16."
+        }
+      ]
+    },
+    {
+      "id": "guide-3.1",
+      "subcategoryId": "3.1",
+      "categoryId": "cat-3",
+      "categoryCode": "3",
+      "categoryTitleDe": "Deutsch & Sprachverständnis",
+      "categoryTitleAr": "اللغة الألمانية والفهم اللغوي",
+      "slug": "deutsche-grammatik",
+      "titleDe": "Sprache – Deutsche Grammatik",
+      "titleAr": "قواعد اللغة الألمانية وتقسيم المقاطع",
+      "questionCount": 23,
+      "recommendedTimeMinutes": 15,
+      "practiceHref": "/practice?category=cat-3&subcategory=3.1",
+      "coreRuleDe": "Wortarten sicher unterscheiden: Nomen (groß, mit Artikel), Verben (konjugierbar, tun), Adjektive (wie ist etwas? steigerbar), Pronomen (ersetzen Nomen: ich, uns), Präpositionen (mit, in, für).",
+      "coreRuleAr": "القاعدة الذهبية: ميّز أقسام الكلام الألمانية بوضوح: الاسم يُكتب بحرف كبير، الفعل يُصرّف، الصفة تصف الاسم وتقبل المقارنة، والضمير ينوب عن الاسم.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Silbentrennung: Zusammensetzungen an der Wortfuge trennen (Zeit|er|fas|sung), sonst nach Sprechsilben.",
+          "ar": "تقسيم المقاطع: افصل الكلمات المركبة عند نقطة التركيب أولاً ثم حسب النطق."
+        },
+        {
+          "step": 2,
+          "de": "Satzglieder erfragen: Wer/Was? (Subjekt), Was tut jemand? (Prädikat), Wen/Wem/Womit? (Objekt).",
+          "ar": "إعراب الجملة: من؟ (الفاعل)، ماذا يفعل؟ (الفعل)، بمن/ماذا؟ (المفعول به)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Bei zusammengesetzten Wörtern wie 'Schifffahrt' bleiben nach der Rechtschreibreform alle drei 'f' erhalten!",
+          "ar": "في الكلمات المركبة مثل Schifffahrt تبقى الحروف الثلاثة المتشابهة (fff) كما هي."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Wie wird 'Auseinandersetzung' richtig getrennt?",
+          "answerDe": "Aus|ei|nan|der|set|zung",
+          "stepsDe": "Vorsilbe 'Aus-' + 'ei-nan-der' + '-set-zung' = 6 Silben.",
+          "stepsAr": "التقسيم الصحيح حسب المقاطع الصوتية والتركيب هو Aus|ei|nan|der|set|zung."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Welches Wort steht im Akkusativ? (der Ball / gelaufen / der Fußballer / einen Lastwagen)",
+          "answerDe": "einen Lastwagen",
+          "stepsDe": "Maskulinum Singular im Akkusativ hat die Endung '-en' beim Artikel ('einen').",
+          "stepsAr": "المذكر المفرد في حالة النصب (Akkusativ) يأخذ أداة النكرة einen."
+        }
+      ]
+    },
+    {
+      "id": "guide-3.2",
+      "subcategoryId": "3.2",
+      "categoryId": "cat-3",
+      "categoryCode": "3",
+      "categoryTitleDe": "Deutsch & Sprachverständnis",
+      "categoryTitleAr": "اللغة الألمانية والفهم اللغوي",
+      "slug": "kommasetzung",
+      "titleDe": "Kommasetzung",
+      "titleAr": "علامات الترقيم واستخدام الفاصلة",
+      "questionCount": 10,
+      "recommendedTimeMinutes": 12,
+      "practiceHref": "/practice?category=cat-3&subcategory=3.2",
+      "coreRuleDe": "Die 4 wichtigsten Kommaregeln: 1) Zwischen Hauptsatz und Nebensatz ('dass', 'weil', 'da', 'nachdem', 'während'), 2) Vor/nach Relativsätzen ('der/die/das/welche'), 3) Vor 'aber, sondern, jedoch', 4) Einschübe/Appositionen beidseitig einschließen.",
+      "coreRuleAr": "القاعدة الذهبية: توضع الفاصلة (Komma) في 4 مواضع أساسية: لفصل الجملة الرئيسية عن الجانبية (dass, weil, nachdem)، لحصر جملة الوصل (die, der) من الطرفين، وقبل (aber, sondern).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Relativsätze und Einschübe suchen: Öffnendes UND schließendes Komma prüfen!",
+          "ar": "ابحث عن الجمل المعترضة أو جمل الوصل وتأكد من وجود فاصلة في بدايتها ونهايتها معاً."
+        },
+        {
+          "step": 2,
+          "de": "Vor 'und' / 'oder' in einfachen Aufzählungen steht KEIN Komma.",
+          "ar": "لا تضع فاصلة قبل und أو oder في التعداد البسيط."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Das schließende Komma am Ende eines eingeschobenen Nebensatzes vergessen!",
+          "ar": "نسيان الفاصلة الثانية لإغلاق الجملة الجانبية المعترضة في منتصف الجملة."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Im Übrigen berichtete der Innenminister von rückläufigen Zahlen, musste aber eine Zunahme einräumen.",
+          "answerDe": "Komma vor 'aber' (kein Komma nach 'Im Übrigen').",
+          "stepsDe": "'Im Übrigen' ist ein Satzadverb ohne Komma; vor 'aber' steht ein Pflichtkomma.",
+          "stepsAr": "لا توضع فاصلة بعد Im Übrigen، وتوضع فاصلة إلزامية قبل aber."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Die Häufigkeitszahl, die angibt, wie viele Straftaten entfallen, erhöhte sich.",
+          "answerDe": "Alle 3 Kommas nötig (Relativsatz + indirekter Fragesatz).",
+          "stepsDe": "1) Vor 'die angibt', 2) vor 'wie viele', 3) schließendes Komma nach 'entfallen'.",
+          "stepsAr": "نحتاج 3 فواصل لحصر جملة الوصل والسؤال غير المباشر قبل الفعل الرئيسي erhöhte."
+        }
+      ]
+    },
+    {
+      "id": "guide-3.3",
+      "subcategoryId": "3.3",
+      "categoryId": "cat-3",
+      "categoryCode": "3",
+      "categoryTitleDe": "Deutsch & Sprachverständnis",
+      "categoryTitleAr": "اللغة الألمانية والفهم اللغوي",
+      "slug": "sprachanalogien",
+      "titleDe": "Sprachanalogien",
+      "titleAr": "التناظر اللغوي",
+      "questionCount": 13,
+      "recommendedTimeMinutes": 10,
+      "practiceHref": "/practice?category=cat-3&subcategory=3.3",
+      "coreRuleDe": "Beziehungstyp exakt bestimmen: Oberbegriff ↔ Unterbegriff (Obst : Banane), Gegenteil (hoch : tief), Werkzeug ↔ Tätigkeit (Bleistift : spitzen) oder Teil ↔ Ganzes (Deutschland : Europa).",
+      "coreRuleAr": "القاعدة الذهبية: حدد نوع العلاقة بدقة: فئة ومثال (فاكهة : موز)، تضاد (عالي : منخفض)، أداة وفعلها (قلم : بري)، أو جزء وكل (ألمانيا : أوروبا).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Einen Brückensatz aus Wort 1 und Wort 2 bauen (z. B. 'Ein Messer wird geschliffen').",
+          "ar": "كوّن جملة ربط بين الكلمتين الأولى والثانية."
+        },
+        {
+          "step": 2,
+          "de": "Denselben Brückensatz auf Wort 3 anwenden und Reihenfolge (allgemein → speziell oder umgekehrt) beachten.",
+          "ar": "طبّق نفس الجملة وبنفس الاتجاه على الكلمة الثالثة."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Richtung vertauschen: Bei 'Herbst / Apfel = Obst / ?' steht rechts das Beispiel (Apfel) und links die Kategorie (Herbst) → also 'Jahreszeit'!",
+          "ar": "عكس الاتجاه: انتبه أيهما الفئة العامة وأيهما المثال المحدد."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Linde / Eiche = Dackel / ?",
+          "answerDe": "Boxer",
+          "stepsDe": "Linde und Eiche sind zwei Baumarten (gleiche Ebene) → Dackel und Boxer sind zwei Hunderassen.",
+          "stepsAr": "الزيزفون والبلوط نوعان من الأشجار، إذن نبحث عن نوع آخر من الكلاب (Boxer) وليس كلمة كلب."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Herbst / Apfel = Obst / ?",
+          "answerDe": "Jahreszeit",
+          "stepsDe": "Apfel gehört zur Kategorie Obst, so wie Herbst zur Kategorie Jahreszeit gehört.",
+          "stepsAr": "التفاحة تنتمي لفئة الفواكه، تماماً كما ينتمي الخريف لفئة الفصول (Jahreszeit)."
+        }
+      ]
+    },
+    {
+      "id": "guide-3.4",
+      "subcategoryId": "3.4",
+      "categoryId": "cat-3",
+      "categoryCode": "3",
+      "categoryTitleDe": "Deutsch & Sprachverständnis",
+      "categoryTitleAr": "اللغة الألمانية والفهم اللغوي",
+      "slug": "tatsache-oder-meinung",
+      "titleDe": "Tatsache oder Meinung",
+      "titleAr": "التمييز بين الحقيقة والرأي",
+      "questionCount": 20,
+      "recommendedTimeMinutes": 5,
+      "practiceHref": "/practice?category=cat-3&subcategory=3.4",
+      "coreRuleDe": "Tatsache = objektiv überprüfbar (wahr oder falsch beweisbar). Meinung = Werturteil, Gefühl, Vermutung oder Verallgemeinerung ('gut', 'gefährlich', 'oft', 'Kunst').",
+      "coreRuleAr": "القاعدة الذهبية: الحقيقة (Tatsache) يمكن إثباتها أو نفيها موضوعياً بالأدلة. الرأي (Meinung) يعبر عن تقييم شخصي أو صفة نسبية (مثل: جميل، خطير، غالباً، فن).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Auf Signalwörter für Meinungen achten: 'gut, schlecht, gefährlich, oft, leicht, Kunst, Tierquälerei'.",
+          "ar": "ابحث عن كلمات التقييم الشخصي: جيد، خطير، غالباً، أسهل، فن."
+        },
+        {
+          "step": 2,
+          "de": "Achtung bei indirekten Aussagen: 'Manche Menschen behaupten, X' ist eine TATSACHE (dass sie es behaupten stimmt!).",
+          "ar": "انتبه: عبارة 'بعض الناس يدّعون كذا' هي حقيقة (لأن وجود هذا الادعاء حقيقة واقعة)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "'Manche Politiker lügen' ist eine belegbare Tatsache; 'Politiker lügen oft' ist eine subjektive Meinung!",
+          "ar": "'بعض السياسيين يكذبون' حقيقة مثبتة، بينما 'السياسيون يكذبون كثيراً' رأي وتعميم."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Manche Menschen behaupten, die Erde sei eine Scheibe.",
+          "answerDe": "Tatsache",
+          "stepsDe": "Es ist objektiv überprüfbar, dass es Menschen gibt, die das behaupten.",
+          "stepsAr": "حقيقة: وجود أشخاص يدّعون ذلك هو أمر واقع ويمكن التحقق منه."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Das Universum ist unendlich.",
+          "answerDe": "Meinung",
+          "stepsDe": "Wissenschaftlich nicht abschließend bewiesen, daher im Test als Annahme/Meinung gewertet.",
+          "stepsAr": "رأي/فرضية: غير مثبت علمياً بشكل قاطع فيُصنف ضمن الآراء والافتراضات."
+        }
+      ]
+    },
+    {
+      "id": "guide-3.5",
+      "subcategoryId": "3.5",
+      "categoryId": "cat-3",
+      "categoryCode": "3",
+      "categoryTitleDe": "Deutsch & Sprachverständnis",
+      "categoryTitleAr": "اللغة الألمانية والفهم اللغوي",
+      "slug": "textverstaendnis-rechtschreibung",
+      "titleDe": "Textverständnis & Rechtschreibung",
+      "titleAr": "فهم النصوص الإدارية والإملاء",
+      "questionCount": 40,
+      "recommendedTimeMinutes": 25,
+      "practiceHref": "/practice?category=cat-3&subcategory=3.5",
+      "coreRuleDe": "'das' lässt sich durch 'dieses / jenes / welches' ersetzen; 'dass' leitet einen Nebensatz ein. Nach 'nichts, etwas, viel, wenig' schreibt man Substantivierungen GROSS (nichts Besonderes).",
+      "coreRuleAr": "القاعدة الذهبية: تُكتب das بـ s واحدة إذا أمكن استبدالها بـ (هذا/الذي)، وتُكتب dass بـ ss إذا كانت أداة ربط (أنّ). وبعد (nichts, etwas, viel) تُكتب الصفة بحرف كبير.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Ersatzprobe für das/dass: Passt 'welches' → 'das'; passt es nicht → 'dass'.",
+          "ar": "اختبار الاستبدال: إذا صحّت كلمة 'الذي' اكتب das، وإلا اكتب dass."
+        },
+        {
+          "step": 2,
+          "de": "Textverständnis: Nur das ankreuzen, was explizit im Text steht – nichts hinzuinterpretieren!",
+          "ar": "في فهم النصوص: اختر فقط ما ورد نصاً في الفقرة ولا تستنتج معلومات من خارج النص."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "'im Voraus' (groß, ein r), 'Adresse' (ein d), 'Lizenz' (mit z), 'Standard' (mit d am Ende).",
+          "ar": "أخطاء إملائية شائعة: im Voraus بحرف r واحد، Adresse بحرف d واحد، Standard بحرف d في النهاية."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Es ist wichtig, ___ alle Backups regelmäßig geprüft werden. (das / dass)",
+          "answerDe": "dass",
+          "stepsDe": "'welches' passt hier nicht → Konjunktion 'dass'.",
+          "stepsAr": "لا يمكن استبدالها بـ 'الذي'، فهي أداة ربط فتُكتب dass."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Heute Abend haben wir nichts Besonderes vor. (Groß-/Kleinschreibung)",
+          "answerDe": "Abend (groß) und Besonderes (groß)",
+          "stepsDe": "'Abend' nach 'heute' ist ein Nomen; 'Besonderes' nach 'nichts' ist substantiviert.",
+          "stepsAr": "كلمة Abend اسم، وكلمة Besonderes تحولت لاسم بعد nichts فتُكتبان بحرف كبير."
+        }
+      ]
+    },
+    {
+      "id": "guide-4.1",
+      "subcategoryId": "4.1",
+      "categoryId": "cat-4",
+      "categoryCode": "4",
+      "categoryTitleDe": "IT & Elektrotechnik",
+      "categoryTitleAr": "تكنولوجيا المعلومات والإلكترونيات",
+      "slug": "elektrotechnik-it-grundlagen",
+      "titleDe": "Elektrotechnik und IT-Grundlagen",
+      "titleAr": "أساسيات تكنولوجيا المعلومات والكهرباء",
+      "questionCount": 48,
+      "recommendedTimeMinutes": 30,
+      "practiceHref": "/practice?category=cat-4&subcategory=4.1",
+      "coreRuleDe": "Elektrotechnik: U = R × I (Spannung in Volt, Widerstand in Ohm, Strom in Ampere), Leistung P = U × I (Watt), Netzfrequenz Europa = 50 Hz. IT-Basis: 1 Byte = 8 Bit, 2¹⁰ = 1.024.",
+      "coreRuleAr": "القاعدة الذهبية: قانون أوم U = R × I (الجهد بالفولت، المقاومة بالأوم، التيار بالأمبير)، القدرة P = U × I بالواط، وتردد أوروبا 50 Hz. في الحاسوب: 1 بايت = 8 بت.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Reihen- vs. Parallelschaltung: In Reihe addieren sich Widerstände (R_ges = R1 + R2); parallel sinkt der Gesamtwiderstand!",
+          "ar": "التوصيل على التوالي يزيد المقاومة الكلية، بينما التوصيل على التوازي يقلل المقاومة الكلية."
+        },
+        {
+          "step": 2,
+          "de": "Binär-Stellenwerte von rechts nach links: 1, 2, 4, 8, 16, 32, 64, 128.",
+          "ar": "منازل النظام الثنائي من اليمين لليسار: 1, 2, 4, 8, 16, 32, 64, 128."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Ein Router verbindet verschiedene Netze; ein Drucker/Monitor ist ein Ausgabegerät, Tastatur/Scanner ein Eingabegerät.",
+          "ar": "التمييز بين وحدات الإدخال (لوحة المفاتيح، الماسح) والإخراج (الطابعة، الشاشة)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Die binäre Zahl 111 ist in Dezimal ausgedrückt die Zahl ...",
+          "answerDe": "7",
+          "stepsDe": "1×4 + 1×2 + 1×1 = 7.",
+          "stepsAr": "نجمع القيم: 4 + 2 + 1 = 7."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Die binäre Zahl 01101101 ist in Dezimal ausgedrückt die Zahl ...?",
+          "answerDe": "109",
+          "stepsDe": "64 + 32 + 8 + 4 + 1 = 109.",
+          "stepsAr": "نجمع الخانات التي تحتوي على 1: 64 + 32 + 8 + 4 + 1 = 109."
+        }
+      ]
+    },
+    {
+      "id": "guide-4.2",
+      "subcategoryId": "4.2",
+      "categoryId": "cat-4",
+      "categoryCode": "4",
+      "categoryTitleDe": "IT & Elektrotechnik",
+      "categoryTitleAr": "تكنولوجيا المعلومات والإلكترونيات",
+      "slug": "it-systeme-netzwerke-fisi",
+      "titleDe": "IT-Systeme, Netzwerke & Administration (FISI)",
+      "titleAr": "الشبكات، الخوادم وأنظمة التشغيل (تخصص FISI)",
+      "questionCount": 30,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-4&subcategory=4.2",
+      "coreRuleDe": "Netzwerk-Grundlagen für FISI: DNS = Name → IP; DHCP = automatische IP-Vergabe; Switch = Layer 2 (MAC); Router = Layer 3 (IP); HTTP = Port 80, HTTPS = Port 443, SSH = Port 22.",
+      "coreRuleAr": "القاعدة الذهبية لتخصص FISI: بروتوكول DNS يترجم الأسماء لعناوين IP، وDHCP يوزع IP تلقائياً. الـ Switch يعمل على الطبقة 2 (MAC) والـ Router على الطبقة 3 (IP).",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Subnetz-Hosts berechnen: 2^(Anzahl Host-Bits) - 2 (minus Netz- und Broadcast-Adresse).",
+          "ar": "عدد الأجهزة في الشبكة الفرعية = 2 أس (عدد بتات المضيف) ناقص 2 (عنوان الشبكة وعنوان البث)."
+        },
+        {
+          "step": 2,
+          "de": "Übertragungszeit berechnen: Dateigröße immer erst in Bit umrechnen (1 Byte = 8 Bit), dann durch Bandbreite (Mbit/s) teilen!",
+          "ar": "لحساب زمن التحميل: حوّل حجم الملف من MB إلى Mbit (بالضرب في 8) ثم اقسم على سرعة الخط."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Megabyte (MB) und Megabit (Mbit) nicht verwechseln: 500 MB = 4.000 Mbit!",
+          "ar": "لا تقسم الميغابايت (MB) مباشرة على سرعة الميغابت (Mbit/s) دون الضرب في 8 أولاً!"
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Wie viele nutzbare Host-Adressen bietet ein /24-Subnetz (255.255.255.0)?",
+          "answerDe": "254",
+          "stepsDe": "8 Host-Bits → 2⁸ = 256 Adressen minus Netzadresse (.0) und Broadcast (.255) = 254 Hosts.",
+          "stepsAr": "يتبقى 8 بت للمضيفين: 2⁸ = 256 ناقص عنوانين محجوزين = 254 جهازاً."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Eine Datei ist 500 MB groß. Übertragungsdauer bei 100 Mbit/s?",
+          "answerDe": "40 Sekunden",
+          "stepsDe": "1) 500 MB × 8 = 4.000 Mbit. 2) 4.000 Mbit ÷ 100 Mbit/s = 40 Sekunden.",
+          "stepsAr": "1) 500 ميغابايت × 8 = 4000 ميغابت. 2) 4000 ÷ 100 = 40 ثانية."
+        }
+      ]
+    },
+    {
+      "id": "guide-5.1",
+      "subcategoryId": "5.1",
+      "categoryId": "cat-5",
+      "categoryCode": "5",
+      "categoryTitleDe": "Politik, Recht & Wirtschaft",
+      "categoryTitleAr": "السياسة والقانون والاقتصاد",
+      "slug": "allgemeinwissen-geschichte",
+      "titleDe": "Allgemeinwissen, Politik und Geschichte",
+      "titleAr": "المعلومات العامة والتاريخ",
+      "questionCount": 11,
+      "recommendedTimeMinutes": 10,
+      "practiceHref": "/practice?category=cat-5&subcategory=5.1",
+      "coreRuleDe": "Schlüsseldaten der deutschen Geschichte & Verfassung: Gründung der BRD = 1949 (Grundgesetz 23.05.1949), erster Bundeskanzler = Konrad Adenauer, Tag der Deutschen Einheit = 3. Oktober 1990 (Wiedervereinigung).",
+      "coreRuleAr": "القاعدة الذهبية: تأسست ألمانيا الاتحادية عام 1949، أول مستشار كان كونراد أديناور، ويوم الوحدة الألمانية هو 3 أكتوبر 1990 بمناسبة إعادة التوحيد.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Ewigkeitsklausel (Art. 79 Abs. 3 GG): Demokratie, Rechtsstaat, Sozialstaat, Föderalismus und Menschenwürde (Art. 1 GG) sind unantastbar.",
+          "ar": "بند الأبدية في الدستور يحمي الديمقراطية وكرامة الإنسان (المادة 1) والنظام الاتحادي من الإلغاء."
+        },
+        {
+          "step": 2,
+          "de": "Volkssouveränität (Art. 20 Abs. 2 GG): 'Alle Staatsgewalt geht vom Volke aus.'",
+          "ar": "سيادة الشعب تعني أن جميع السلطات تنبع من الشعب."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Anlass für den Tag der Deutschen Einheit ist die Wiedervereinigung (03.10.1990), NICHT der Mauerfall (09.11.1989)!",
+          "ar": "مناسبة يوم الوحدة الألمانية هي إعادة التوحيد الرسمي (3 أكتوبر 1990) وليس سقوط الجدار (9 نوفمبر 1989)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Welche drei Flüsse fließen durch Passau?",
+          "answerDe": "Donau, Inn und Ilz",
+          "stepsDe": "Passau heißt wegen dieser drei Flüsse auch 'Dreiflüssestadt'.",
+          "stepsAr": "تُلقب مدينة باساو بمدينة الأنهار الثلاثة: الدانوب، إن، وإيلتس."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Was bedeutet die Ewigkeitsklausel im Grundgesetz?",
+          "answerDe": "Bestimmte Verfassungsprinzipien niemals geändert werden dürfen.",
+          "stepsDe": "Nicht das gesamte Grundgesetz ist unveränderlich, sondern nur die Kerngrundsätze in Art. 1 und Art. 20 GG.",
+          "stepsAr": "لا تمنع تعديل الدستور بالكامل، بل تحظر المساس بالمبادئ الأساسية (المادتين 1 و20)."
+        }
+      ]
+    },
+    {
+      "id": "guide-5.2",
+      "subcategoryId": "5.2",
+      "categoryId": "cat-5",
+      "categoryCode": "5",
+      "categoryTitleDe": "Politik, Recht & Wirtschaft",
+      "categoryTitleAr": "السياسة والقانون والاقتصاد",
+      "slug": "politik-und-gesellschaft",
+      "titleDe": "Politik und Gesellschaft",
+      "titleAr": "السياسة والمجتمع والاتحاد الأوروبي",
+      "questionCount": 34,
+      "recommendedTimeMinutes": 25,
+      "practiceHref": "/practice?category=cat-5&subcategory=5.2",
+      "coreRuleDe": "Verfassungsorgane Deutschlands: Bundestag (vom Volk ab 18 gewählt, wählt den Bundeskanzler), Bundesrat (vertritt die 16 Bundesländer, Stimmen nach Einwohnerzahl), Bundespräsident (Staatsoberhaupt, Vertreter = Bundesratspräsident).",
+      "coreRuleAr": "القاعدة الذهبية: البوندستاغ ينتخبه الشعب وينتخب المستشار، البوندسرات يمثل الولايات الـ 16 حسب عدد السكان، والرئيس الاتحادي ينوب عنه رئيس البوندسرات.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Aktives Wahlrecht = selbst wählen dürfen; Passives Wahlrecht = selbst gewählt werden dürfen.",
+          "ar": "حق الانتخاب الإيجابي = أن تصوّت؛ السلبي = أن تترشح وتُنتخب."
+        },
+        {
+          "step": 2,
+          "de": "Gesetzesinitiativen dürfen einbringen: Bundesregierung, Bundestag und Bundesrat – NICHT der Bundespräsident!",
+          "ar": "يحق للحكومة والبرلمان ومجلس الولايات اقتراح القوانين، ولا يحق للرئيس الاتحادي ذلك."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Verwechslung zwischen erstem Bundeskanzler (Konrad Adenauer, CDU) und erstem Bundespräsidenten (Theodor Heuss, FDP).",
+          "ar": "الخلط بين أول مستشار (أديناور) وأول رئيس جمهورية (تيودور هويس من حزب FDP)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Wer vertritt den Bundespräsidenten, wenn er verhindert ist?",
+          "answerDe": "Der Bundesratspräsident",
+          "stepsDe": "In Deutschland gibt es keinen Vizepräsidenten; laut Art. 57 GG übernimmt der Präsident des Bundesrates.",
+          "stepsAr": "لا يوجد نائب للرئيس في ألمانيا، بل ينوب عنه رئيس مجلس الولايات (Bundesratspräsident)."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Wie heißt das Berechnungsverfahren für die Sitzverteilung im Bundestag seit 2009?",
+          "answerDe": "Sainte-Laguë",
+          "stepsDe": "Sainte-Laguë/Schepers löste 2009 Hare-Niemeyer (und früher d'Hondt) ab.",
+          "stepsAr": "تُستخدم طريقة Sainte-Laguë لتوزيع المقاعد البرلمانية منذ عام 2009."
+        }
+      ]
+    },
+    {
+      "id": "guide-5.3",
+      "subcategoryId": "5.3",
+      "categoryId": "cat-5",
+      "categoryCode": "5",
+      "categoryTitleDe": "Politik, Recht & Wirtschaft",
+      "categoryTitleAr": "السياسة والقانون والاقتصاد",
+      "slug": "recht",
+      "titleDe": "Recht",
+      "titleAr": "القانون الدستوري والعام",
+      "questionCount": 27,
+      "recommendedTimeMinutes": 20,
+      "practiceHref": "/practice?category=cat-5&subcategory=5.3",
+      "coreRuleDe": "Gewaltenteilung: Legislative (Gesetzgebung: Bundestag/Bundesrat), Exekutive (Ausführung: Regierung, Polizei, Verwaltung), Judikative (Rechtsprechung: Gerichte). Volljährige Geschäftsfähigkeit ab 18 Jahren.",
+      "coreRuleAr": "القاعدة الذهبية: فصل السلطات الثلاث: التشريعية (البرلمان)، التنفيذية (الحكومة والشرطة والإدارة)، والقضائية (المحاكم). الأهلية القانونية الكاملة تبدأ بسن 18 عاماً.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Öffentliches Recht (Staat ↔ Bürger, z. B. Verwaltungsrecht, Steuerrecht, Strafrecht) vs. Privatrecht (Bürger ↔ Bürger, z. B. BGB, Urheberrecht).",
+          "ar": "القانون العام ينظم علاقة الدولة بالمواطن (القانون الإداري والضريبي)، والخاص ينظم علاقة الأفراد ببعضهم."
+        },
+        {
+          "step": 2,
+          "de": "Grundrechte schützen primär den Bürger vor Eingriffen des Staates – ab der Geburt!",
+          "ar": "الحقوق الأساسية تحمي المواطن من تدخل الدولة وتبدأ منذ الولادة."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Europäischer Gerichtshof für Menschenrechte (EGMR) sitzt in Straßburg – nicht in Den Haag!",
+          "ar": "مقر المحكمة الأوروبية لحقوق الإنسان هو ستراسبورغ (Straßburg) وليس لاهاي."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Die Polizei ist Teil welcher Staatsgewalt?",
+          "answerDe": "Exekutive",
+          "stepsDe": "Polizei und Verwaltung führen Gesetze aus → Exekutive.",
+          "stepsAr": "الشرطة والإدارة الحكومية جزء من السلطة التنفيذية (Exekutive)."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Wann erlischt das Urheberrecht in Deutschland?",
+          "answerDe": "70 Jahre nach dem Tod des Urhebers",
+          "stepsDe": "Laut § 64 UrhG endet der Schutz 70 Jahre post mortem auctoris.",
+          "stepsAr": "ينقضي حق المؤلف بعد 70 عاماً من وفاة المؤلف."
+        }
+      ]
+    },
+    {
+      "id": "guide-5.4",
+      "subcategoryId": "5.4",
+      "categoryId": "cat-5",
+      "categoryCode": "5",
+      "categoryTitleDe": "Politik, Recht & Wirtschaft",
+      "categoryTitleAr": "السياسة والقانون والاقتصاد",
+      "slug": "wirtschaft",
+      "titleDe": "Wirtschaft",
+      "titleAr": "الاقتصاد والمصطلحات المالية",
+      "questionCount": 14,
+      "recommendedTimeMinutes": 12,
+      "practiceHref": "/practice?category=cat-5&subcategory=5.4",
+      "coreRuleDe": "Ökonomisches Prinzip: Maximalprinzip (mit gegebenen Mitteln maximales Ergebnis) & Minimalprinzip (gegebenes Ziel mit minimalen Mitteln). Liquidität = Zahlungsfähigkeit; Skonto = Preisnachlass bei schneller Zahlung.",
+      "coreRuleAr": "القاعدة الذهبية: المبدأ الاقتصادي يعني الاستخدام الرشيد للموارد المحدودة. السيولة (Liquidität) تعني القدرة على سداد الالتزامات، والـ Skonto هو خصم للدفع السريع.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Prokura = umfassende handelsrechtliche Vollmacht; Hypothek = Grundpfandrecht als Kreditsicherheit für Immobilien.",
+          "ar": "الـ Prokura توكيل تجاري واسع، والـ Hypothek رهن عقاري كضمان للقرض."
+        },
+        {
+          "step": 2,
+          "de": "Wirtschaftsordnung Deutschlands = Soziale Marktwirtschaft (begründet durch Ludwig Erhard).",
+          "ar": "النظام الاقتصادي في ألمانيا هو اقتصاد السوق الاجتماعي (مؤسسه لودفيغ إيرهارد)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "'Maximales Ergebnis mit minimalen Mitteln' gleichzeitig gibt es nicht – das ist ein klassischer Prüfungsfehler!",
+          "ar": "تحقيق أقصى نتيجة بأقل موارد في آنٍ واحد مستحيل منطقياً وهو فخ شائع في الاختبارات."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Wie nennt man einen Rabatt bei Zahlung innerhalb einer kurzen Zahlungsfrist?",
+          "answerDe": "Skonto",
+          "stepsDe": "z. B. '2 % Skonto bei Zahlung innerhalb von 10 Tagen'.",
+          "stepsAr": "يُسمى Skonto وهو خصم يمنحه البائع عند السداد المبكر."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Was versteht man unter der Liquidität eines Unternehmens?",
+          "answerDe": "Die Zahlungsfähigkeit des Unternehmens",
+          "stepsDe": "Liquidität beschreibt die Fähigkeit, fällige Zahlungsverpflichtungen fristgerecht zu erfüllen.",
+          "stepsAr": "السيولة تعني قدرة الشركة على الوفاء بالتزاماتها المالية في مواعيدها."
+        }
+      ]
+    },
+    {
+      "id": "guide-5.5",
+      "subcategoryId": "5.5",
+      "categoryId": "cat-5",
+      "categoryCode": "5",
+      "categoryTitleDe": "Politik, Recht & Wirtschaft",
+      "categoryTitleAr": "السياسة والقانون والاقتصاد",
+      "slug": "hessen-oeffentlicher-dienst",
+      "titleDe": "Hessen & Öffentlicher Dienst",
+      "titleAr": "معلومات ولاية هيسن والخدمة المدنية",
+      "questionCount": 15,
+      "recommendedTimeMinutes": 10,
+      "practiceHref": "/practice?category=cat-5&subcategory=5.5",
+      "coreRuleDe": "Hessen-Kompakt für dein Auswahlverfahren: Landeshauptstadt = Wiesbaden; 3 Regierungsbezirke = Darmstadt, Gießen (Mittelhessen, inkl. Marburg), Kassel; Mittelbehörde zwischen Ministerium und Kommunen; Tarifvertrag = TVA-H BBiG.",
+      "coreRuleAr": "القاعدة الذهبية لولاية هيسن: العاصمة فيسبادن (Wiesbaden)، والمناطق الإدارية الثلاث هي دارمشتات، غيسن (تتبعها ماربورغ)، وكاسل. هيئة Regierungspräsidium هي سلطة إدارية وسطى.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Nachbarländer Hessens (6): NRW, Niedersachsen, Thüringen, Bayern, Baden-Württemberg, Rheinland-Pfalz.",
+          "ar": "تحد هيسن 6 ولايات ألمانية."
+        },
+        {
+          "step": 2,
+          "de": "Dienstpflichten im öffentlichen Dienst: Amtsverschwiegenheit, Verfassungstreue, DSGVO-Datenschutz, Wirtschaftlichkeitsprinzip.",
+          "ar": "واجبات الخدمة المدنية: السرية الوظيفية، الولاء للدستور، حماية البيانات DSGVO، والاقتصاد في النفقات."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Frankfurt am Main ist zwar die größte Stadt Hessens, aber Landeshauptstadt ist Wiesbaden!",
+          "ar": "فرانكفورت أكبر مدن الولاية، لكن العاصمة الإدارية هي فيسبادن (Wiesbaden)."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "Welche Stellung nimmt ein Regierungspräsidium im Verwaltungsaufbau Hessens ein?",
+          "answerDe": "Allgemeine Landesmittelbehörde zwischen Ministerien und Kommunen/Kreisen",
+          "stepsDe": "Oberste Behörden = Ministerien in Wiesbaden; Mittelinstanz = Regierungspräsidien (DA, GI, KS).",
+          "stepsAr": "هي سلطة إدارية وسطى تربط بين الوزارات في فيسبادن والبلديات والمقاطعات."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Auf welcher tarifvertraglichen Grundlage werden Auszubildende beim Land Hessen vergütet?",
+          "answerDe": "TVA-H BBiG",
+          "stepsDe": "Tarifvertrag für Auszubildende des Landes Hessen (TVA-H BBiG).",
+          "stepsAr": "يُحدد راتب المتدربين في ولاية هيسن بموجب اتفاقية TVA-H BBiG."
+        }
+      ]
+    },
+    {
+      "id": "guide-6.1",
+      "subcategoryId": "6.1",
+      "categoryId": "cat-6",
+      "categoryCode": "6",
+      "categoryTitleDe": "Geografie",
+      "categoryTitleAr": "الجغرافيا",
+      "slug": "geografie-allgemein",
+      "titleDe": "Geografie",
+      "titleAr": "الجغرافيا العامة وألمانيا",
+      "questionCount": 26,
+      "recommendedTimeMinutes": 18,
+      "practiceHref": "/practice?category=cat-6&subcategory=6.1",
+      "coreRuleDe": "Top-Fakten Geografie: Deutschland hat 9 Nachbarländer und ca. 357.000–360.000 km² Fläche. Größtes Land = Russland, zweitgrößtes = Kanada, bevölkerungsreichstes = Indien, größter Ozean = Pazifik.",
+      "coreRuleAr": "القاعدة الذهبية: لألمانيا 9 دول مجاورة بحدود برية ومساحتها حوالي 360,000 كم². أكبر دولة روسيا، ثم كندا، وأكثرها سكاناً الهند، وأكبر محيط هو الهادئ.",
+      "steps": [
+        {
+          "step": 1,
+          "de": "Hauptstädte-Fallen merken: Kanada → Ottawa (nicht Toronto), Brasilien → Brasília (nicht Rio), Australien → Canberra (nicht Sydney).",
+          "ar": "احفظ العواصم الخادعة: كندا (أوتاوا)، البرازيل (برازيليا)، أستراليا (كانبيرا)."
+        },
+        {
+          "step": 2,
+          "de": "Flüsse & Grenzen: Passau (Donau, Inn, Ilz), Budapest (Donau), längster rein französischer Fluss (Loire).",
+          "ar": "الأنهار: بودابست على الدانوب، وأطول نهر داخل فرنسا بالكامل هو اللوار (Loire)."
+        }
+      ],
+      "examTraps": [
+        {
+          "de": "Deutschland grenzt NICHT an Schweden, Russland, Slowakei oder Liechtenstein!",
+          "ar": "ألمانيا لا تملك حدوداً برية مع السويد أو سلوفاكيا أو ليختنشتاين."
+        }
+      ],
+      "examples": [
+        {
+          "difficulty": "mittel",
+          "problemDe": "In welchem lateinamerikanischen Land ist Spanisch NICHT die Amtssprache?",
+          "answerDe": "Brasilien",
+          "stepsDe": "In Brasilien ist Portugiesisch die Amtssprache.",
+          "stepsAr": "اللغة الرسمية في البرازيل هي البرتغالية وليست الإسبانية."
+        },
+        {
+          "difficulty": "schwer",
+          "problemDe": "Welches Land gehört NICHT zum südostasiatischen Staatenbund ASEAN?",
+          "answerDe": "Volksrepublik China",
+          "stepsDe": "ASEAN umfasst 10 südostasiatische Staaten (u. a. Indonesien, Thailand, Philippinen), aber nicht China.",
+          "stepsAr": "الصين ليست عضواً في رابطة دول جنوب شرق آسيا (ASEAN)."
+        }
+      ]
+    }
+  ]
+}
